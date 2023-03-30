@@ -217,7 +217,7 @@
             "Communicate with healthcare professionals about a patient's condition and any changes in their health status."
         ],
         "Job Title": "Certified Nursing Assistant",
-        "Ways Chat GPT can make you better at your job": [
+        "tips": [
             "Quickly transcribe patient notes and medical records for accurate documentation",
             "Assist with patient communication by generating personalized messages and responses",
             "Create detailed care plans for patients based on their individual needs and medical history",
@@ -774,7 +774,7 @@
             "Research the latest treatments and therapies for a patient's specific medical condition and provide recommendations to their healthcare team."
         ],
         "Job Title": "Home Health Aide",
-        "Ways Chat GPT can make you better at your job": [
+        "tips": [
             "Chat GPT can help you communicate more effectively with patients who have difficulty speaking or hearing.",
             "Chat GPT can assist with transcribing patient notes and medical records, saving time and reducing errors.",
             "Chat GPT can help you write clear and concise care plans for patients, ensuring that all necessary information is included.",
@@ -1348,7 +1348,7 @@
             "Provide guidance on how to communicate effectively with clients who have dementia or other cognitive impairments."
         ],
         "Job Title": "Personal Care Aide",
-        "Ways Chat GPT can make you better at your job": [
+        "tips": [
             "Quickly transcribe notes from client meetings and appointments to ensure accurate and up-to-date records.",
             "Generate personalized care plans for clients based on their specific needs and preferences.",
             "Write clear and concise progress reports to share with healthcare professionals and family members.",
