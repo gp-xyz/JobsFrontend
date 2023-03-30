@@ -13,9 +13,9 @@ function Router() {
     return (
         <BrowserRouter>
             <Nav jobsData={jobsData}/>
-            <div className='grid grid-cols-6 w-full p-2'>
+            <div className='grid grid-cols-4 md:grid-cols-6 w-full p-2'>
                 <div className='col-span-1'><JobsMenu jobsData={jobsData}/></div>
-                <div className='col-span-4'>
+                <div className='col-span-3 md:col-span-4'>
                 <Routes>
                     
                 <Route exact path="/" element={<Home />} />
