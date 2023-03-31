@@ -27,7 +27,7 @@ function Router() {
               <Route path="/articles/:articleID" element={<ArticlePage articles={articles.articles} />} />
             </Routes>
           </div>
-          <div className='px-2 pt-2'><ArticleMenu articles={articles.articles} /></div>
+          <div className='px-2 pt-2 w-full md:w-32'><ArticleMenu articles={articles.articles} /></div>
         </div>
 
       </div>
