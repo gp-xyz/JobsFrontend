@@ -15,7 +15,7 @@ function Nav({ jobsData }) {
                 JSFYI
               </Link>
             </div>
-            <div className="hidden sm:block sm:ml-6">
+            <div className="sm:block sm:ml-6">
               <div className="flex space-x-4">
                 <div className={navlinkstyle}><Link to="/" >Home</Link></div>
                 <div className={navlinkstyle}><Link to="/about" >About</Link></div>
