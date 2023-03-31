@@ -1,3 +1,34 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+:root {
+--color-text-base: #f1fa8c;
+--color-text-link: #afaffd;
+--color-text-muted: #c7d2ef;
+--color-text-inverted: #4f46e5;
+--color-fill: #282a36;
+--color-bubble: #6272a4;
+--color-nav: #282a36;
+}
+
+body {
+background-color: navy;
+color: var(--color-text-base);
+}
+
+.theme-swiss {
+--color-text-base: #efefef;
+--color-text-muted: #c7d2ef;
+--color-text-inverted: #4f46e5;
+--color-fill: #ca4343;
+--color-button-accent: #ffffff;
+--color-button-accent-hover: #eef2ef;
+--color-button-muted: #6366fa;
+}
+}
+
+.jsbubble{
+  @apply p-2 m-1 rounded-md bg-skin-bubble;
+}

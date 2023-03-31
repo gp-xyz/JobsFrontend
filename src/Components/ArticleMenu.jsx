@@ -9,11 +9,11 @@ function ArticleMenu({ articles }) {
       <div className="font-bold text-lg mb-4">Articles</div>
       <ul className="space-y-2">
         {Object.keys(articles).map((id) => (
-          <li key={id}>
-            <Link to={`/articles/${id}`} className="text-blue-600 hover:underline">
+          <div className='border-b'>
+            <Link to={`/articles/${id}`} className="text-skin-link text-xs md:text-sm underline hover:no-underline ">
               {articles[id].headline} 
             </Link>
-          </li>
+          </div>
         ))}
       </ul>
     </div>

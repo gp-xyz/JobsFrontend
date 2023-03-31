@@ -2,8 +2,8 @@ import React from 'react'
 
 function Home() {
     return (
-      <div className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
+      <div className="jsbubble py-12 px-4 m-0 sm:m-1 sm:px-6 lg:px-8">
+        <div className="max-w-7xl m-0 sm:m-1  text-skin-base  ">
           <h1 className="text-3xl font-bold mb-4">
             Improve Your Job Skills with AI
           </h1>
